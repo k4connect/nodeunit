@@ -1,6 +1,6 @@
 {
   "name": "nodeunit",
-  "version": "0.11.3",
+  "version": "0.11.3-k4",
   "description": "Easy unit testing for node.js and the browser.",
   "maintainers": [
     {
@@ -79,8 +79,8 @@
     "nodeunit": "./bin/nodeunit"
   },
   "dependencies": {
-    "ejs": "^2.5.2",
-    "tap": "^12.0.1"
+    "ejs": "2.7.2",
+    "tap": "12.7.0"
   },
   "scripts": {
     "test": "node ./bin/nodeunit"
